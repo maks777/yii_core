@@ -1,0 +1,73 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CommentController	CommentController.php	/^class CommentController extends Controller$/;"	c
+PostController	PostController.php	/^class PostController extends Controller$/;"	c
+SiteController	SiteController.php	/^class SiteController extends Controller$/;"	c
+UserController	UserController.php	/^class UserController extends Controller$/;"	c
+_model	CommentController.php	/^				$this->_model=Comment::model()->findbyPk($_GET['id']);$/;"	v
+_model	CommentController.php	/^	private $_model;$/;"	v
+_model	PostController.php	/^				$this->_model=Post::model()->findByPk($_GET['id'], $condition);$/;"	v
+_model	PostController.php	/^	private $_model;$/;"	v
+accessRules	CommentController.php	/^	public function accessRules()$/;"	f
+accessRules	PostController.php	/^	public function accessRules()$/;"	f
+accessRules	UserController.php	/^	public function accessRules()$/;"	f
+actionAdmin	PostController.php	/^	public function actionAdmin()$/;"	f
+actionAdmin	UserController.php	/^	public function actionAdmin()$/;"	f
+actionApprove	CommentController.php	/^	public function actionApprove()$/;"	f
+actionContact	SiteController.php	/^	public function actionContact()$/;"	f
+actionCreate	PostController.php	/^	public function actionCreate()$/;"	f
+actionCreate	UserController.php	/^	public function actionCreate()$/;"	f
+actionDelete	CommentController.php	/^	public function actionDelete()$/;"	f
+actionDelete	PostController.php	/^	public function actionDelete()$/;"	f
+actionDelete	UserController.php	/^	public function actionDelete($id)$/;"	f
+actionError	SiteController.php	/^	public function actionError()$/;"	f
+actionIndex	CommentController.php	/^	public function actionIndex()$/;"	f
+actionIndex	PostController.php	/^	public function actionIndex()$/;"	f
+actionIndex	UserController.php	/^	public function actionIndex()$/;"	f
+actionLogin	SiteController.php	/^	public function actionLogin()$/;"	f
+actionLogout	SiteController.php	/^	public function actionLogout()$/;"	f
+actionSuggestTags	PostController.php	/^	public function actionSuggestTags()$/;"	f
+actionUpdate	CommentController.php	/^	public function actionUpdate()$/;"	f
+actionUpdate	PostController.php	/^	public function actionUpdate()$/;"	f
+actionUpdate	UserController.php	/^	public function actionUpdate($id)$/;"	f
+actionView	PostController.php	/^	public function actionView()$/;"	f
+actionView	UserController.php	/^	public function actionView($id)$/;"	f
+actions	SiteController.php	/^	public function actions()$/;"	f
+comment	CommentController.php	/^			$comment=$this->loadModel();$/;"	v
+comment	PostController.php	/^		$comment=$this->newComment($post);$/;"	v
+comment	PostController.php	/^		$comment=new Comment;$/;"	v
+condition	PostController.php	/^					$condition='';$/;"	v
+condition	PostController.php	/^					$condition='status='.Post::STATUS_PUBLISHED.' OR status='.Post::STATUS_ARCHIVED;$/;"	v
+criteria	PostController.php	/^		$criteria=new CDbCriteria(array($/;"	v
+dataProvider	CommentController.php	/^		$dataProvider=new CActiveDataProvider('Comment', array($/;"	v
+dataProvider	PostController.php	/^		$dataProvider=new CActiveDataProvider('Post', array($/;"	v
+dataProvider	UserController.php	/^		$dataProvider=new CActiveDataProvider('User');$/;"	v
+filters	CommentController.php	/^	public function filters()$/;"	f
+filters	PostController.php	/^	public function filters()$/;"	f
+filters	UserController.php	/^	public function filters()$/;"	f
+headers	SiteController.php	/^				$headers="From: {$model->email}\\r\\nReply-To: {$model->email}";$/;"	v
+layout	CommentController.php	/^	public $layout='column2';$/;"	v
+layout	PostController.php	/^	public $layout='column2';$/;"	v
+layout	SiteController.php	/^	public $layout='column1';$/;"	v
+layout	UserController.php	/^	public $layout='\/\/layouts\/column2';$/;"	v
+loadModel	CommentController.php	/^	public function loadModel()$/;"	f
+loadModel	PostController.php	/^	public function loadModel()$/;"	f
+loadModel	UserController.php	/^	public function loadModel($id)$/;"	f
+model	CommentController.php	/^		$model=$this->loadModel();$/;"	v
+model	PostController.php	/^		$model=$this->loadModel();$/;"	v
+model	PostController.php	/^		$model=new Post('search');$/;"	v
+model	PostController.php	/^		$model=new Post;$/;"	v
+model	SiteController.php	/^		$model=new ContactForm;$/;"	v
+model	SiteController.php	/^		$model=new LoginForm;$/;"	v
+model	UserController.php	/^		$model=$this->loadModel($id);$/;"	v
+model	UserController.php	/^		$model=User::model()->findByPk((int)$id);$/;"	v
+model	UserController.php	/^		$model=new User('search');$/;"	v
+model	UserController.php	/^		$model=new User;$/;"	v
+newComment	PostController.php	/^	protected function newComment($post)$/;"	f
+performAjaxValidation	UserController.php	/^	protected function performAjaxValidation($model)$/;"	f
+post	PostController.php	/^		$post=$this->loadModel();$/;"	v
+tags	PostController.php	/^			$tags=Tag::model()->suggestTags($keyword);$/;"	v
