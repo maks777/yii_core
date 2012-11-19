@@ -1,0 +1,395 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BIN_PATH	yiic.bat	/^set BIN_PATH=%~dp0$/;"	v
+Comment	models/Comment.php	/^class Comment extends CActiveRecord$/;"	c
+CommentController	controllers/CommentController.php	/^class CommentController extends Controller$/;"	c
+CommentTest	tests/functional/CommentTest.php	/^class CommentTest extends WebTestCase$/;"	c
+CommentTest	tests/unit/CommentTest.php	/^class CommentTest extends CDbTestCase$/;"	c
+ContactForm	models/ContactForm.php	/^class ContactForm extends CFormModel$/;"	c
+Controller	components/Controller.php	/^class Controller extends CController$/;"	c
+Img	models/Img.php	/^class Img extends CActiveRecord$/;"	c
+ImgController	controllers/ImgController.php	/^class ImgController extends Controller$/;"	c
+Key	models/Key.php	/^class Key extends CActiveRecord$/;"	c
+LoginForm	models/LoginForm.php	/^class LoginForm extends CFormModel$/;"	c
+Lookup	models/Lookup.php	/^class Lookup extends CActiveRecord$/;"	c
+LookupTest	tests/unit/LookupTest.php	/^class LookupTest extends CDbTestCase$/;"	c
+PHP_COMMAND	yiic.bat	/^if "%PHP_COMMAND%" == "" set PHP_COMMAND=php.exe$/;"	v
+PhpAuthManager	components/PhpAuthManager.php	/^	class PhpAuthManager extends CPhpAuthManager{$/;"	c
+Post	models/Post.php	/^class Post extends CActiveRecord$/;"	c
+PostController	controllers/PostController.php	/^class PostController extends Controller$/;"	c
+PostTest	tests/functional/PostTest.php	/^class PostTest extends WebTestCase$/;"	c
+PostTest	tests/unit/PostTest.php	/^class PostTest extends CDbTestCase$/;"	c
+RecentComments	components/RecentComments.php	/^class RecentComments extends CPortlet$/;"	c
+SiteController	controllers/SiteController.php	/^class SiteController extends Controller$/;"	c
+SiteTest	tests/functional/SiteTest.php	/^class SiteTest extends WebTestCase$/;"	c
+TEST_BASE_URL	tests/WebTestCase.php	/^define('TEST_BASE_URL','http:\/\/localhost\/yii\/demos\/blog\/index-test.php\/');$/;"	d
+Tag	models/Tag.php	/^class Tag extends CActiveRecord$/;"	c
+TagCloud	components/TagCloud.php	/^class TagCloud extends CPortlet$/;"	c
+TagTest	tests/unit/TagTest.php	/^class TagTest extends CDbTestCase$/;"	c
+User	models/User.php	/^class User extends CActiveRecord$/;"	c
+UserController	controllers/UserController.php	/^class UserController extends Controller$/;"	c
+UserIdentity	components/UserIdentity.php	/^class UserIdentity extends CUserIdentity$/;"	c
+UserMenu	components/UserMenu.php	/^class UserMenu extends CPortlet$/;"	c
+UserTest	tests/unit/UserTest.php	/^class UserTest extends CDbTestCase$/;"	c
+WebTestCase	tests/WebTestCase.php	/^class WebTestCase extends CWebTestCase$/;"	c
+WebUser	components/WebUser.php	/^	class WebUser extends CWebUser {$/;"	c
+_id	components/UserIdentity.php	/^				$this->_id=$user->id;$/;"	v
+_id	components/UserIdentity.php	/^	private $_id;$/;"	v
+_identity	models/LoginForm.php	/^			$this->_identity=new UserIdentity($this->username,$this->password);$/;"	v
+_identity	models/LoginForm.php	/^		$this->_identity=new UserIdentity($this->username,$this->password);$/;"	v
+_identity	models/LoginForm.php	/^	private $_identity;$/;"	v
+_identity	models/User.php	/^		$this->_identity=new UserIdentity($this->username,$this->oldpass);$/;"	v
+_items	models/Lookup.php	/^	private static $_items=array();$/;"	v
+_model	components/WebUser.php	/^            $this->_model = User::model()->findByPk($this->id, array('select' =>array('rank','id')));$/;"	v
+_model	components/WebUser.php	/^    private $_model = null;$/;"	v
+_model	controllers/CommentController.php	/^				$this->_model=Comment::model()->findbyPk($_GET['id']);$/;"	v
+_model	controllers/CommentController.php	/^	private $_model;$/;"	v
+_model	controllers/PostController.php	/^				$this->_model=Post::model()->findByPk($_GET['id'], $condition);$/;"	v
+_model	controllers/PostController.php	/^	private $_model;$/;"	v
+_oldTags	models/Post.php	/^		$this->_oldTags=$this->tags;$/;"	v
+_oldTags	models/Post.php	/^	private $_oldTags;$/;"	v
+accessRules	controllers/CommentController.php	/^	public function accessRules()$/;"	f
+accessRules	controllers/ImgController.php	/^	public function accessRules()$/;"	f
+accessRules	controllers/PostController.php	/^	public function accessRules()$/;"	f
+accessRules	controllers/UserController.php	/^	public function accessRules()$/;"	f
+actionAdmin	controllers/CommentController.php	/^	public function actionAdmin()$/;"	f
+actionAdmin	controllers/ImgController.php	/^	public function actionAdmin()$/;"	f
+actionAdmin	controllers/PostController.php	/^	public function actionAdmin()$/;"	f
+actionAdmin	controllers/UserController.php	/^	public function actionAdmin()$/;"	f
+actionApprove	controllers/CommentController.php	/^	public function actionApprove()$/;"	f
+actionContact	controllers/SiteController.php	/^	public function actionContact()$/;"	f
+actionCreate	controllers/ImgController.php	/^	public function actionCreate()$/;"	f
+actionCreate	controllers/PostController.php	/^	public function actionCreate()$/;"	f
+actionCreate	controllers/UserController.php	/^	public function actionCreate()$/;"	f
+actionDelete	controllers/CommentController.php	/^	public function actionDelete()$/;"	f
+actionDelete	controllers/ImgController.php	/^	public function actionDelete($id)$/;"	f
+actionDelete	controllers/PostController.php	/^	public function actionDelete()$/;"	f
+actionDelete	controllers/UserController.php	/^	public function actionDelete($id)$/;"	f
+actionError	controllers/SiteController.php	/^	public function actionError()$/;"	f
+actionIndex	controllers/CommentController.php	/^	public function actionIndex()$/;"	f
+actionIndex	controllers/ImgController.php	/^	public function actionIndex()$/;"	f
+actionIndex	controllers/PostController.php	/^	public function actionIndex()$/;"	f
+actionIndex	controllers/UserController.php	/^	public function actionIndex()$/;"	f
+actionLogin	controllers/SiteController.php	/^	public function actionLogin()$/;"	f
+actionLogout	controllers/SiteController.php	/^	public function actionLogout()$/;"	f
+actionSuggestTags	controllers/PostController.php	/^	public function actionSuggestTags()$/;"	f
+actionUpdate	controllers/CommentController.php	/^	public function actionUpdate()$/;"	f
+actionUpdate	controllers/ImgController.php	/^	public function actionUpdate($id)$/;"	f
+actionUpdate	controllers/PostController.php	/^	public function actionUpdate()$/;"	f
+actionUpdate	controllers/UserController.php	/^	public function actionUpdate($id)$/;"	f
+actionView	controllers/ImgController.php	/^	public function actionView($id)$/;"	f
+actionView	controllers/PostController.php	/^	public function actionView()$/;"	f
+actionView	controllers/UserController.php	/^	public function actionView($id)$/;"	f
+actions	controllers/SiteController.php	/^	public function actions()$/;"	f
+addComment	models/Post.php	/^	public function addComment($comment)$/;"	f
+addTags	models/Tag.php	/^	public function addTags($tags)$/;"	f
+afterDelete	models/Post.php	/^	protected function afterDelete()$/;"	f
+afterFind	models/Post.php	/^	protected function afterFind()$/;"	f
+afterSave	models/Post.php	/^	protected function afterSave()$/;"	f
+approve	models/Comment.php	/^	public function approve()$/;"	f
+array2string	models/Tag.php	/^	public static function array2string($tags)$/;"	f
+attributeLabels	models/Comment.php	/^	public function attributeLabels()$/;"	f
+attributeLabels	models/ContactForm.php	/^	public function attributeLabels()$/;"	f
+attributeLabels	models/Img.php	/^	public function attributeLabels()$/;"	f
+attributeLabels	models/Key.php	/^	public function attributeLabels()$/;"	f
+attributeLabels	models/LoginForm.php	/^	public function attributeLabels()$/;"	f
+attributeLabels	models/Post.php	/^	public function attributeLabels()$/;"	f
+attributeLabels	models/Tag.php	/^	public function attributeLabels()$/;"	f
+attributeLabels	models/User.php	/^	public function attributeLabels()$/;"	f
+authFile	components/PhpAuthManager.php	/^            $this->authFile=Yii::getPathOfAlias('application.config.auth').'.php';$/;"	v
+authenticate	components/UserIdentity.php	/^	public function authenticate()$/;"	f
+authenticate	models/LoginForm.php	/^	public function authenticate($attribute,$params)$/;"	f
+authenticate	models/User.php	/^	public function authenticate($attribute,$params)$/;"	f
+author_id	models/Post.php	/^				$this->author_id=Yii::app()->user->id;$/;"	v
+beforeSave	models/Comment.php	/^	protected function beforeSave()$/;"	f
+beforeSave	models/Post.php	/^	protected function beforeSave()$/;"	f
+body	models/ContactForm.php	/^	public $body;$/;"	v
+breadcrumbs	components/Controller.php	/^	public $breadcrumbs=array();$/;"	v
+breadcrumbs	views/comment/admin.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/comment/index.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/comment/update.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/img/admin.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/img/create.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/img/index.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/img/update.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/img/view.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/post/admin.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/post/create.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/post/update.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/post/view.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/site/contact.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/site/error.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/site/login.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/site/pages/about.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/user/admin.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/user/create.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/user/index.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/user/update.php	/^$this->breadcrumbs=array($/;"	v
+breadcrumbs	views/user/view.php	/^$this->breadcrumbs=array($/;"	v
+comment	controllers/CommentController.php	/^			$comment=$this->loadModel();$/;"	v
+comment	controllers/PostController.php	/^		$comment=$this->newComment($post);$/;"	v
+comment	controllers/PostController.php	/^		$comment=new Comment;$/;"	v
+comment	tests/functional/CommentTest.php	/^		$comment="comment 1";$/;"	v
+comment	tests/unit/CommentTest.php	/^		$comment=Comment::model()->findByPk($comment->id);$/;"	v
+comment	tests/unit/CommentTest.php	/^		$comment=new Comment;$/;"	v
+comments	tests/unit/CommentTest.php	/^		$comments=Comment::model()->findRecentComments();$/;"	v
+condition	controllers/PostController.php	/^					$condition='';$/;"	v
+condition	controllers/PostController.php	/^					$condition='status='.Post::STATUS_PUBLISHED.' OR status='.Post::STATUS_ARCHIVED;$/;"	v
+config	tests/bootstrap.php	/^$config=dirname(__FILE__).'\/..\/config\/test.php';$/;"	v
+config	yiic.php	/^$config=dirname(__FILE__).'\/config\/console.php';$/;"	v
+create_time	models/Comment.php	/^				$this->create_time=time();$/;"	v
+create_time	models/Post.php	/^				$this->create_time=$this->update_time=time();$/;"	v
+criteria	controllers/PostController.php	/^		$criteria=new CDbCriteria(array($/;"	v
+criteria	models/Comment.php	/^		$criteria=new CDbCriteria;$/;"	v
+criteria	models/Img.php	/^		$criteria=new CDbCriteria;$/;"	v
+criteria	models/Key.php	/^		$criteria=new CDbCriteria;$/;"	v
+criteria	models/Post.php	/^		$criteria=new CDbCriteria;$/;"	v
+criteria	models/Tag.php	/^		$criteria=new CDbCriteria;$/;"	v
+criteria	models/User.php	/^		$criteria=new CDbCriteria;$/;"	v
+dataProvider	controllers/CommentController.php	/^		$dataProvider=new CActiveDataProvider('Comment', array($/;"	v
+dataProvider	controllers/ImgController.php	/^		$dataProvider=new CActiveDataProvider('Img');$/;"	v
+dataProvider	controllers/PostController.php	/^		$dataProvider=new CActiveDataProvider('Post', array($/;"	v
+dataProvider	controllers/UserController.php	/^		$dataProvider=new CActiveDataProvider('User');$/;"	v
+db	data/dbgen.php	/^$db=new PDO('sqlite:'.$dbFile);$/;"	v
+dbFile	data/dbgen.php	/^$dbFile=dirname(__FILE__).'\/blog.db';$/;"	v
+duration	models/LoginForm.php	/^			$duration=$this->rememberMe ? 3600*24*30 : 0; \/\/ 30 days$/;"	v
+email	models/ContactForm.php	/^	public $email;$/;"	v
+errorCode	components/UserIdentity.php	/^				$this->errorCode=self::ERROR_NONE;$/;"	v
+errorCode	components/UserIdentity.php	/^				$this->errorCode=self::ERROR_USERNAME_INVALID;$/;"	v
+errorCode	components/UserIdentity.php	/^			$this->errorCode=self::ERROR_PASSWORD_INVALID;$/;"	v
+errorCode	components/UserIdentity.php	/^			$this->errorCode=self::ERROR_USERNAME_INVALID;$/;"	v
+filters	controllers/CommentController.php	/^	public function filters()$/;"	f
+filters	controllers/ImgController.php	/^	public function filters()$/;"	f
+filters	controllers/PostController.php	/^	public function filters()$/;"	f
+filters	controllers/UserController.php	/^	public function filters()$/;"	f
+findRecentComments	models/Comment.php	/^	public function findRecentComments($limit=10)$/;"	f
+findTagWeights	models/Tag.php	/^	public function findTagWeights($limit=20)$/;"	f
+fixtures	tests/functional/CommentTest.php	/^	public $fixtures=array($/;"	v
+fixtures	tests/functional/PostTest.php	/^	public $fixtures=array($/;"	v
+fixtures	tests/unit/CommentTest.php	/^	public $fixtures=array($/;"	v
+fixtures	tests/unit/LookupTest.php	/^	public $fixtures=array($/;"	v
+fixtures	tests/unit/PostTest.php	/^	public $fixtures=array($/;"	v
+fixtures	tests/unit/TagTest.php	/^	public $fixtures=array($/;"	v
+fixtures	tests/unit/UserTest.php	/^	public $fixtures=array($/;"	v
+generateSalt	models/User.php	/^	protected function generateSalt()$/;"	f
+getAuthorLink	models/Comment.php	/^	public function getAuthorLink()$/;"	f
+getId	components/UserIdentity.php	/^	public function getId()$/;"	f
+getModel	components/WebUser.php	/^    private function getModel(){$/;"	f
+getPendingCommentCount	models/Comment.php	/^	public function getPendingCommentCount()$/;"	f
+getRecentComments	components/RecentComments.php	/^	public function getRecentComments()$/;"	f
+getRole	components/WebUser.php	/^	public function getRole() {$/;"	f
+getTagLinks	models/Post.php	/^	public function getTagLinks()$/;"	f
+getUrl	models/Comment.php	/^	public function getUrl($post=null)$/;"	f
+getUrl	models/Post.php	/^	public function getUrl()$/;"	f
+hashPassword	models/User.php	/^	public function hashPassword($password,$salt)$/;"	f
+headers	controllers/SiteController.php	/^				$headers="From: {$model->email}\\r\\nReply-To: {$model->email}";$/;"	v
+init	components/PhpAuthManager.php	/^    public function init(){$/;"	f
+init	components/UserMenu.php	/^	public function init()$/;"	f
+item	models/Lookup.php	/^	public static function item($type,$code)$/;"	f
+items	models/Lookup.php	/^	public static function items($type)$/;"	f
+layout	components/Controller.php	/^	public $layout='column1';$/;"	v
+layout	controllers/CommentController.php	/^	public $layout='column2';$/;"	v
+layout	controllers/ImgController.php	/^	public $layout='\/\/layouts\/column2';$/;"	v
+layout	controllers/PostController.php	/^	public $layout='column2';$/;"	v
+layout	controllers/SiteController.php	/^	public $layout='column1';$/;"	v
+layout	controllers/UserController.php	/^	public $layout='\/\/layouts\/column2';$/;"	v
+link	components/TagCloud.php	/^			$link=CHtml::link(CHtml::encode($tag), array('post\/index','tag'=>$tag));$/;"	v
+links	models/Post.php	/^		$links=array();$/;"	v
+loadItems	models/Lookup.php	/^	private static function loadItems($type)$/;"	f
+loadModel	controllers/CommentController.php	/^	public function loadModel()$/;"	f
+loadModel	controllers/ImgController.php	/^	public function loadModel($id)$/;"	f
+loadModel	controllers/PostController.php	/^	public function loadModel()$/;"	f
+loadModel	controllers/UserController.php	/^	public function loadModel($id)$/;"	f
+login	models/LoginForm.php	/^	public function login()$/;"	f
+maxComments	components/RecentComments.php	/^	public $maxComments=10;$/;"	v
+maxTags	components/TagCloud.php	/^	public $maxTags=20;$/;"	v
+menu	components/Controller.php	/^	public $menu=array();$/;"	v
+menu	views/comment/admin.php	/^$this->menu=array($/;"	v
+menu	views/img/admin.php	/^$this->menu=array($/;"	v
+menu	views/img/create.php	/^$this->menu=array($/;"	v
+menu	views/img/index.php	/^$this->menu=array($/;"	v
+menu	views/img/update.php	/^$this->menu=array($/;"	v
+menu	views/img/view.php	/^$this->menu=array($/;"	v
+menu	views/user/admin.php	/^$this->menu=array($/;"	v
+menu	views/user/create.php	/^$this->menu=array($/;"	v
+menu	views/user/index.php	/^$this->menu=array($/;"	v
+menu	views/user/update.php	/^$this->menu=array($/;"	v
+menu	views/user/view.php	/^$this->menu=array($/;"	v
+model	controllers/CommentController.php	/^		$model=$this->loadModel();$/;"	v
+model	controllers/CommentController.php	/^		$model=new Comment('search');$/;"	v
+model	controllers/ImgController.php	/^		$model=$this->loadModel($id);$/;"	v
+model	controllers/ImgController.php	/^		$model=Img::model()->findByPk((int)$id);$/;"	v
+model	controllers/ImgController.php	/^		$model=new Img('search');$/;"	v
+model	controllers/ImgController.php	/^		$model=new Img;$/;"	v
+model	controllers/PostController.php	/^		$model=$this->loadModel();$/;"	v
+model	controllers/PostController.php	/^		$model=new Post('search');$/;"	v
+model	controllers/PostController.php	/^		$model=new Post;$/;"	v
+model	controllers/SiteController.php	/^		$model=new ContactForm;$/;"	v
+model	controllers/SiteController.php	/^		$model=new LoginForm;$/;"	v
+model	controllers/UserController.php	/^		$model=$this->loadModel($id);$/;"	v
+model	controllers/UserController.php	/^		$model=User::model()->findByPk((int)$id);$/;"	v
+model	controllers/UserController.php	/^		$model=new User('search');$/;"	v
+model	controllers/UserController.php	/^		$model=new User;$/;"	v
+model	models/Comment.php	/^	public static function model($className=__CLASS__)$/;"	f
+model	models/Img.php	/^	public static function model($className=__CLASS__)$/;"	f
+model	models/Key.php	/^	public static function model($className=__CLASS__)$/;"	f
+model	models/Lookup.php	/^	public static function model($className=__CLASS__)$/;"	f
+model	models/Post.php	/^	public static function model($className=__CLASS__)$/;"	f
+model	models/Tag.php	/^	public static function model($className=__CLASS__)$/;"	f
+model	models/User.php	/^	public static function model($className=__CLASS__)$/;"	f
+models	models/Lookup.php	/^		$models=self::model()->findAll(array($/;"	v
+models	models/Tag.php	/^		$models=$this->findAll(array($/;"	v
+name	models/ContactForm.php	/^	public $name;$/;"	v
+names	models/Tag.php	/^		$names=array();$/;"	v
+newComment	controllers/PostController.php	/^	protected function newComment($post)$/;"	f
+newTags	models/Tag.php	/^		$newTags=self::string2array($newTags);$/;"	v
+normalizeTags	models/Post.php	/^	public function normalizeTags($attribute,$params)$/;"	f
+oldTags	models/Tag.php	/^		$oldTags=self::string2array($oldTags);$/;"	v
+pageTitle	views/post/view.php	/^$this->pageTitle=$model->title;$/;"	v
+pageTitle	views/site/contact.php	/^$this->pageTitle=Yii::app()->name . ' - Contact Us';$/;"	v
+pageTitle	views/site/error.php	/^$this->pageTitle=Yii::app()->name . ' - Error';$/;"	v
+pageTitle	views/site/login.php	/^$this->pageTitle=Yii::app()->name . ' - Login';$/;"	v
+pageTitle	views/site/pages/about.php	/^$this->pageTitle=Yii::app()->name . ' - About';$/;"	v
+password	models/LoginForm.php	/^	public $password;$/;"	v
+performAjaxValidation	controllers/ImgController.php	/^	protected function performAjaxValidation($model)$/;"	f
+performAjaxValidation	controllers/UserController.php	/^	protected function performAjaxValidation($model)$/;"	f
+post	controllers/PostController.php	/^		$post=$this->loadModel();$/;"	v
+post	models/Comment.php	/^			$post=$this->post;$/;"	v
+relations	models/Comment.php	/^	public function relations()$/;"	f
+relations	models/Img.php	/^	public function relations()$/;"	f
+relations	models/Key.php	/^	public function relations()$/;"	f
+relations	models/Post.php	/^	public function relations()$/;"	f
+relations	models/Tag.php	/^	public function relations()$/;"	f
+relations	models/User.php	/^	public function relations()$/;"	f
+rememberMe	models/LoginForm.php	/^	public $rememberMe;$/;"	v
+removeTags	models/Tag.php	/^	public function removeTags($tags)$/;"	f
+renderContent	components/RecentComments.php	/^	protected function renderContent()$/;"	f
+renderContent	components/TagCloud.php	/^	protected function renderContent()$/;"	f
+renderContent	components/UserMenu.php	/^	protected function renderContent()$/;"	f
+rules	models/Comment.php	/^	public function rules()$/;"	f
+rules	models/ContactForm.php	/^	public function rules()$/;"	f
+rules	models/Img.php	/^	public function rules()$/;"	f
+rules	models/Key.php	/^	public function rules()$/;"	f
+rules	models/LoginForm.php	/^	public function rules()$/;"	f
+rules	models/Post.php	/^	public function rules()$/;"	f
+rules	models/Tag.php	/^	public function rules()$/;"	f
+rules	models/User.php	/^	public function rules()$/;"	f
+search	models/Comment.php	/^	public function search()$/;"	f
+search	models/Img.php	/^	public function search()$/;"	f
+search	models/Key.php	/^	public function search()$/;"	f
+search	models/Post.php	/^	public function search()$/;"	f
+search	models/User.php	/^	public function search()$/;"	f
+setUp	tests/WebTestCase.php	/^	protected function setUp()$/;"	f
+sqlFile	data/dbgen.php	/^$sqlFile=dirname(__FILE__).'\/schema.sqlite.sql';$/;"	v
+sqls	data/dbgen.php	/^$sqls=file_get_contents($sqlFile);$/;"	v
+status	models/Comment.php	/^		$this->status=Comment::STATUS_APPROVED;$/;"	v
+string2array	models/Tag.php	/^	public static function string2array($tags)$/;"	f
+subject	models/ContactForm.php	/^	public $subject;$/;"	v
+suggestTags	models/Tag.php	/^	public function suggestTags($keyword,$limit=20)$/;"	f
+tableName	models/Comment.php	/^	public function tableName()$/;"	f
+tableName	models/Img.php	/^	public function tableName()$/;"	f
+tableName	models/Key.php	/^	public function tableName()$/;"	f
+tableName	models/Lookup.php	/^	public function tableName()$/;"	f
+tableName	models/Post.php	/^	public function tableName()$/;"	f
+tableName	models/Tag.php	/^	public function tableName()$/;"	f
+tableName	models/User.php	/^	public function tableName()$/;"	f
+tag	models/Tag.php	/^				$tag=new Tag;$/;"	v
+tags	components/TagCloud.php	/^		$tags=Tag::model()->findTagWeights($this->maxTags);$/;"	v
+tags	controllers/PostController.php	/^			$tags=Tag::model()->suggestTags($keyword);$/;"	v
+tags	models/Post.php	/^		$this->tags=Tag::array2string(array_unique(Tag::string2array($this->tags)));$/;"	v
+tags	models/Tag.php	/^		$tags=$this->findAll(array($/;"	v
+tags	models/Tag.php	/^		$tags=array();$/;"	v
+tbl_comment	data/schema.mysql.sql	/^CREATE TABLE tbl_comment$/;"	t
+tbl_comment	data/schema.sqlite.sql	/^CREATE TABLE tbl_comment$/;"	t
+tbl_comment.author	data/schema.mysql.sql	/^	create_time INTEGER,$/;"	F
+tbl_comment.author	data/schema.sqlite.sql	/^	create_time INTEGER,$/;"	F
+tbl_comment.content	data/schema.mysql.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,$/;"	F
+tbl_comment.content	data/schema.sqlite.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,$/;"	F
+tbl_comment.create_time	data/schema.mysql.sql	/^	status INTEGER NOT NULL,$/;"	F
+tbl_comment.create_time	data/schema.sqlite.sql	/^	status INTEGER NOT NULL,$/;"	F
+tbl_comment.email	data/schema.mysql.sql	/^	author VARCHAR(128) NOT NULL,$/;"	F
+tbl_comment.email	data/schema.sqlite.sql	/^	author VARCHAR(128) NOT NULL,$/;"	F
+tbl_comment.id	data/schema.mysql.sql	/^($/;"	F
+tbl_comment.id	data/schema.sqlite.sql	/^($/;"	F
+tbl_comment.post_id	data/schema.mysql.sql	/^	url VARCHAR(128),$/;"	F
+tbl_comment.post_id	data/schema.sqlite.sql	/^	url VARCHAR(128),$/;"	F
+tbl_comment.status	data/schema.mysql.sql	/^	content TEXT NOT NULL,$/;"	F
+tbl_comment.status	data/schema.sqlite.sql	/^	content TEXT NOT NULL,$/;"	F
+tbl_lookup	data/schema.mysql.sql	/^CREATE TABLE tbl_lookup$/;"	t
+tbl_lookup	data/schema.sqlite.sql	/^CREATE TABLE tbl_lookup$/;"	t
+tbl_lookup.code	data/schema.mysql.sql	/^	name VARCHAR(128) NOT NULL,$/;"	F
+tbl_lookup.code	data/schema.sqlite.sql	/^	name VARCHAR(128) NOT NULL,$/;"	F
+tbl_lookup.id	data/schema.mysql.sql	/^($/;"	F
+tbl_lookup.id	data/schema.sqlite.sql	/^($/;"	F
+tbl_lookup.name	data/schema.mysql.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,$/;"	F
+tbl_lookup.name	data/schema.sqlite.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,$/;"	F
+tbl_lookup.position	data/schema.mysql.sql	/^	type VARCHAR(128) NOT NULL,$/;"	F
+tbl_lookup.position	data/schema.sqlite.sql	/^	type VARCHAR(128) NOT NULL,$/;"	F
+tbl_post	data/schema.mysql.sql	/^CREATE TABLE tbl_post$/;"	t
+tbl_post	data/schema.sqlite.sql	/^CREATE TABLE tbl_post$/;"	t
+tbl_post.author_id	data/schema.mysql.sql	/^	update_time INTEGER,$/;"	F
+tbl_post.author_id	data/schema.sqlite.sql	/^	update_time INTEGER,$/;"	F
+tbl_post.content	data/schema.mysql.sql	/^	title VARCHAR(128) NOT NULL,$/;"	F
+tbl_post.content	data/schema.sqlite.sql	/^	title VARCHAR(128) NOT NULL,$/;"	F
+tbl_post.create_time	data/schema.mysql.sql	/^	status INTEGER NOT NULL,$/;"	F
+tbl_post.create_time	data/schema.sqlite.sql	/^	status INTEGER NOT NULL,$/;"	F
+tbl_post.id	data/schema.mysql.sql	/^($/;"	F
+tbl_post.id	data/schema.sqlite.sql	/^($/;"	F
+tbl_post.status	data/schema.mysql.sql	/^	tags TEXT,$/;"	F
+tbl_post.status	data/schema.sqlite.sql	/^	tags TEXT,$/;"	F
+tbl_post.tags	data/schema.mysql.sql	/^	content TEXT NOT NULL,$/;"	F
+tbl_post.tags	data/schema.sqlite.sql	/^	content TEXT NOT NULL,$/;"	F
+tbl_post.title	data/schema.mysql.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,$/;"	F
+tbl_post.title	data/schema.sqlite.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,$/;"	F
+tbl_post.update_time	data/schema.mysql.sql	/^	create_time INTEGER,$/;"	F
+tbl_post.update_time	data/schema.sqlite.sql	/^	create_time INTEGER,$/;"	F
+tbl_tag	data/schema.mysql.sql	/^CREATE TABLE tbl_tag$/;"	t
+tbl_tag	data/schema.sqlite.sql	/^CREATE TABLE tbl_tag$/;"	t
+tbl_tag.frequency	data/schema.mysql.sql	/^	name VARCHAR(128) NOT NULL,$/;"	F
+tbl_tag.frequency	data/schema.sqlite.sql	/^	name VARCHAR(128) NOT NULL,$/;"	F
+tbl_tag.id	data/schema.mysql.sql	/^($/;"	F
+tbl_tag.id	data/schema.sqlite.sql	/^($/;"	F
+tbl_tag.name	data/schema.mysql.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,$/;"	F
+tbl_tag.name	data/schema.sqlite.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,$/;"	F
+tbl_user	data/schema.mysql.sql	/^CREATE TABLE tbl_user$/;"	t
+tbl_user	data/schema.sqlite.sql	/^CREATE TABLE tbl_user$/;"	t
+tbl_user.email	data/schema.mysql.sql	/^	salt VARCHAR(128) NOT NULL,$/;"	F
+tbl_user.email	data/schema.sqlite.sql	/^	salt VARCHAR(128) NOT NULL,$/;"	F
+tbl_user.id	data/schema.mysql.sql	/^($/;"	F
+tbl_user.id	data/schema.sqlite.sql	/^($/;"	F
+tbl_user.password	data/schema.mysql.sql	/^	username VARCHAR(128) NOT NULL,$/;"	F
+tbl_user.password	data/schema.sqlite.sql	/^	username VARCHAR(128) NOT NULL,$/;"	F
+tbl_user.profile	data/schema.mysql.sql	/^	email VARCHAR(128) NOT NULL,$/;"	F
+tbl_user.profile	data/schema.sqlite.sql	/^	email VARCHAR(128) NOT NULL,$/;"	F
+tbl_user.salt	data/schema.mysql.sql	/^	password VARCHAR(128) NOT NULL,$/;"	F
+tbl_user.salt	data/schema.sqlite.sql	/^	password VARCHAR(128) NOT NULL,$/;"	F
+tbl_user.username	data/schema.mysql.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,$/;"	F
+tbl_user.username	data/schema.sqlite.sql	/^	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,$/;"	F
+testApprove	tests/unit/CommentTest.php	/^	public function testApprove()$/;"	f
+testContact	tests/functional/SiteTest.php	/^	public function testContact()$/;"	f
+testCreate	tests/functional/CommentTest.php	/^	public function testCreate()$/;"	f
+testCreate	tests/unit/LookupTest.php	/^	public function testCreate()$/;"	f
+testCreate	tests/unit/TagTest.php	/^	public function testCreate()$/;"	f
+testCreate	tests/unit/UserTest.php	/^	public function testCreate()$/;"	f
+testFindRecentComments	tests/unit/CommentTest.php	/^	public function testFindRecentComments()$/;"	f
+testIndex	tests/functional/PostTest.php	/^	public function testIndex()$/;"	f
+testLoginLogout	tests/functional/SiteTest.php	/^	public function testLoginLogout()$/;"	f
+testSave	tests/unit/PostTest.php	/^	public function testSave()$/;"	f
+testView	tests/functional/PostTest.php	/^	public function testView()$/;"	f
+title	components/RecentComments.php	/^	public $title='Recent Comments';$/;"	v
+title	components/TagCloud.php	/^	public $title='Tags';$/;"	v
+title	components/UserMenu.php	/^		$this->title=CHtml::encode(Yii::app()->user->name);$/;"	v
+total	models/Tag.php	/^		$total=0;$/;"	v
+updateFrequency	models/Tag.php	/^	public function updateFrequency($oldTags, $newTags)$/;"	f
+update_time	models/Post.php	/^				$this->update_time=time();$/;"	v
+user	components/UserIdentity.php	/^		$user=User::model()->find('LOWER(username)=?',array(strtolower($this->username)));$/;"	v
+username	components/UserIdentity.php	/^				$this->username=$user->username;$/;"	v
+username	models/LoginForm.php	/^	public $username;$/;"	v
+validatePassword	models/User.php	/^	public function validatePassword($password)$/;"	f
+verifyCode	models/ContactForm.php	/^	public $verifyCode;$/;"	v
+yiic	yiic.php	/^$yiic=dirname(__FILE__).'\/..\/..\/..\/framework\/yiic.php';$/;"	v
+yiit	tests/bootstrap.php	/^$yiit=dirname(__FILE__).'\/..\/..\/..\/..\/framework\/yiit.php';$/;"	v
