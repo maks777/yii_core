@@ -12,6 +12,7 @@ defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 require_once($yii);
 Yii::createWebApplication($config)->run();
 
+<<<<<<< HEAD
 //git com
 dcncndcs
 
@@ -29,4 +30,7 @@ do {
         cairo_surface_create_similar(dcsscd
             scs
             <dd>cairo_surface_create_similar(dcsscddsc, content, width, height)</dd>, content, width, height), content), comment), comment), comment));
+=======
+//git com test subl
+>>>>>>> refs/remotes/origin/origin
 
